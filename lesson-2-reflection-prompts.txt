@@ -1,3 +1,4 @@
+
 What happens when you initialize a repository? Why do you need to do it?
 
   The .git folder and metadata files are created. Git uses these to manage
@@ -5,6 +6,10 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+  Use 'git add' to add a file to the staging area. This changes the status of
+  the file from untracked to tracked, so Git can manage it. We use 'git commit'
+  to take a checkpoint of the repository files in the working directory.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
